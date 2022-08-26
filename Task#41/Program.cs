@@ -7,7 +7,7 @@
 Console.Clear();
 
 Console.Clear();
-Console.Write("Input numbers separated by a space ' ': ");
+Console.Write("Input numbers by a space ' ': ");
 string[] userNumbers = Console.ReadLine()!.Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
 int positiveNumbers = 0;
